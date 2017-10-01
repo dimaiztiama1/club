@@ -10,7 +10,7 @@ import java.util.*;
 public class Club {
 
     private final Dj dj = new Dj();
-    private List<MusicListener> visitors;
+    private final List<MusicListener> visitors;
 
     public Club(){
         visitors = createDancers();
