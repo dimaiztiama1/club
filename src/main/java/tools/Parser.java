@@ -33,9 +33,9 @@ public class Parser {
             final DocumentBuilder documentBuilder = factory.newDocumentBuilder();
             final Document document = documentBuilder.parse(file);
             document.getDocumentElement().normalize();
-            final NodeList nodeList = document.getElementsByTagName("track");
-            for(int i = 0; i < nodeList.getLength(); i++){
-                final Node nodeTrack = nodeList.item(i);
+            final NodeList trackNodeList = document.getElementsByTagName("track");
+            for(int i = 0; i < trackNodeList.getLength(); i++){
+                final Node nodeTrack = trackNodeList.item(i);
                 if (Node.ELEMENT_NODE == nodeTrack.getNodeType()){
                     Element elementTrack = (Element) nodeTrack;
                     author =  elementTrack.getElementsByTagName("author").item(0).getTextContent();
@@ -82,6 +82,9 @@ public class Parser {
                                         }
                                     }
                                     dancers.add(new Dancer(name, favoriteMusicStyles));
+                                    break;
+                                default:
+                                    System.out.println("unknown tag in xml");
                                     break;
                             }
                         }
