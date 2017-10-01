@@ -13,7 +13,7 @@ public class Club {
     private final List<MusicListener> visitors;
 
     public Club(){
-        visitors = createDancers();
+        visitors = createVisitors();
     }
 
     public void startParty(){
@@ -24,7 +24,7 @@ public class Club {
         }
     }
 
-    private List<MusicListener> createDancers(){
+    private List<MusicListener> createVisitors(){
         return Parser.parseVisitorsList();
     }
 
