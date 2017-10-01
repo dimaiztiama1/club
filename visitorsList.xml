@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<visitors>
+    <dancer>
+        <name>Dima</name>
+        <favoriteMusicStyle>
+            <style>Pop</style>
+            <style>Electro</style>
+        </favoriteMusicStyle>
+    </dancer>
+    <dancer>
+        <name>Katya</name>
+        <favoriteMusicStyle>
+            <style>Rap</style>
+            <style>Pop</style>
+            <style>Electro</style>
+        </favoriteMusicStyle>
+    </dancer>
+    <dancer>
+        <name>Andrey</name>
+        <favoriteMusicStyle>
+            <style>Electro</style>
+        </favoriteMusicStyle>
+    </dancer>
+    <dancer>
+        <name>Alena</name>
+        <favoriteMusicStyle>
+            <style>Electro</style>
+            <style>Rap</style>
+        </favoriteMusicStyle>
+    </dancer>
+</visitors>

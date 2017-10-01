@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<playlist>
+    <track>
+        <author>Баста</author>
+        <name>Сансара</name>
+        <style>Rap</style>
+    </track>
+    <track>
+        <author>Justice</author>
+        <name>D.A.N.C.E.</name>
+        <style>Electro</style>
+    </track>
+    <track>
+        <author>Каста</author>
+        <name>Вокруг шум</name>
+        <style>Rap</style>
+    </track>
+    <track>
+        <author>Полина Гагарина</author>
+        <name>Спектакль окончен</name>
+        <style>Pop</style>
+    </track>
+    <track>
+        <author>Ricky Martin</author>
+        <name>Livin` la Vida Loca</name>
+        <style>Pop</style>
+    </track>
+    <track>
+        <author>Daft Punk</author>
+        <name>Get Lucky</name>
+        <style>Electro</style>
+    </track>
+</playlist>
